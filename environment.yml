@@ -1,0 +1,11 @@
+name: ddp-demo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
